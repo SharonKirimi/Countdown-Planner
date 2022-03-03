@@ -47,4 +47,4 @@ Do you want to have a countdown of all the year, month, week, day and plan it as
 
 ### Entity Relationship Diagram
 
-![ERD]([./public/images/Jotit_ERD.png](https://ibb.co/h7kpxMM))
+ - [ERD](https://ibb.co/h7kpxMM)
