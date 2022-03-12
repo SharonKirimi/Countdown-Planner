@@ -28,11 +28,11 @@ const requireToken = passport.authenticate('bearer', { session: false })
 const router = express.Router()
 
 // INDEX
-// GET /tasks
+// GET /plans
 router.get('/plans', requireToken, (req, res, next) => {
   Plan.find({owner: req.user._id})// we added for users to only see what they created
     .then(plans => {
-      // `tasks` will be an array of Mongoose documents
+      // `plans` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to
       // apply `.toObject` to each one
       return plans.map(plan => plan.toObject())
