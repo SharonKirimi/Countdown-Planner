@@ -1,12 +1,15 @@
-# Application Title: Jotit Task Tracker
+# Application Title: CountDown Planner
 
 Do you want to have a countdown of all the year, month, week, day and plan it as well? Countdown Planner will help with that! This application allows the user to 1) create an account and 2) sign in to 3) Plan the year, month, wee, and day and have a countdown of them too.
+It is an app for people who like to keep track of their time before the end of the year.
 
 ## Important Links
 
-- [Deployed Client](...)
-- [Deployed API](...)
-- [Frontend Repository](...)
+- [Deployed Client](https://sharonkirimi.github.io/Countdown-Planner-client/)
+- [Deployed API](https://agile-beach-06972.herokuapp.com)
+- [Frontend Repository](https://github.com/SharonKirimi/Countdown-Planner-client)
+- [Backend Repository](https://github.com/SharonKirimi/Countdown-Planner)
+
 
 ### Technologies Used
 
@@ -48,3 +51,7 @@ Do you want to have a countdown of all the year, month, week, day and plan it as
 ### Entity Relationship Diagram
 
  - [ERD](https://ibb.co/h7kpxMM)
+
+### Set up and Installation
+- Clone the link
+- Run nodemon
